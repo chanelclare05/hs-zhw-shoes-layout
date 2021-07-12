@@ -24,4 +24,32 @@
 
 /* Positioning Classes */
 
+.deals {
+  display: table;
+  border-collapse: collapse;
+  width: 90%;
+}
+.shadow {
+  box-sizing: border-box;
+  display: table-cell;
+  vertical-align: top;
+  
+}
+.shadow img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  padding: ;
+}
 
+.shadow.summer-grass {
+  width: 60%;
+}
+
+
+.border_right {
+  display: flex;
+  width: 32%;
+  overflow: hidden;
+}
